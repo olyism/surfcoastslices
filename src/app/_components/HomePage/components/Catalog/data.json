@@ -1,0 +1,173 @@
+
+[
+  {
+    "title": "Slices",
+    "desc": "Comes in boxes of 10 or 32 slices",
+    "groups": [
+      {
+        "title": "Slices",
+        "products": [
+          {
+            "title": "Caramel",
+            "image": "caramel"
+          },
+          {
+            "title": "Choc Cherry",
+            "image": "chocCherry"
+          },
+          {
+            "title": "Choc Fudge Brownie",
+            "image": "chocFudgeBrownie"
+          },
+          {
+            "title": "Cookies & Cream",
+            "image": "cookiesNCream"
+          },
+          {
+            "title": "Hedgehog",
+            "image": "hedgehog"
+          },
+          {
+            "title": "Lemon Slice",
+            "image": "lemonSlice"
+          },
+          {
+            "title": "Mint Slice",
+            "image": "mintSlice"
+          },
+          {
+            "title": "Salted Caramel",
+            "image": "saltedCaramel"
+          },
+          {
+            "title": "Nutella"
+          },
+          {
+            "title": "Muesli",
+            "image": "muesli"
+          },
+          {
+            "title": "Gluten-free Brownie",
+            "image": "glutenFreeBrownie"
+          }
+        ]
+      },
+      {
+        "title": "Deluxe slices",
+        "products": [
+          {
+            "title": "Rocky Road",
+            "image": "rockyRoad"
+          },
+          {
+            "title": "Tim Tam"
+          }
+        ]
+      },
+      {
+        "title": "Specialty Slices",
+        "products": [
+          {
+            "title": "Macadamia Fudge"
+          },
+          {
+            "title": "Gluten-free Fudge Brownie",
+            "image": "glutenFreeFudgeBrownie"
+          },
+          {
+            "title": "Gluten-free Fudge Brownie with Nutella"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Cakes 14\"",
+    "groups": [
+      {
+        "title": "Cakes",
+        "products": [
+          {
+            "title": "Apple and Cinnamon",
+            "image": "appleAndCinnamon"
+          },
+          {
+            "title": "Banana Cake",
+            "image": "bananaCake"
+          },
+          {
+            "title": "Carrot Cake",
+            "image": "carrotCake"
+          },
+          {
+            "title": "Mud Cake",
+            "image": "mudCake"
+          },
+          {
+            "title": "Sticky Date Pudding",
+            "image": "stickyDatePudding"
+          },
+          {
+            "title": "Sponge Cake"
+          }
+        ]
+      },
+      {
+        "title": "Cheese Cakes",
+        "products": [
+          {
+            "title": "Berry and White Chocolate Cheese Cake"
+          },
+          {
+            "title": "Baked Berry Cheese Cake",
+            "image": "bakedBerryCheeseCake"
+          },
+          {
+            "title": "New York Cheese Cake",
+            "image": "newYorkCheeseCake"
+          },
+          {
+            "title": "Passion Fruit Cheese Cake"
+          }
+        ]
+      },
+      {
+        "title": "Flourless Cakes",
+        "desc": "May contain traces of wheat/gluten",
+        "products": [
+          {
+            "title": "Flourless Chocolate",
+            "image": "flourlessChocolate"
+          },
+          {
+            "title": "Orange and Almond",
+            "image": "orangeAndAlmond"
+          },
+          {
+            "title": "Lemon Butter",
+            "image": "lemonButter"
+          },
+          {
+            "title": "Coffee and Cinnamon"
+          }
+        ]
+      },
+      {
+        "title": "Mousse cakes and tarts",
+        "products": [
+          {
+            "title": "Chocolate Mousse Cake",
+            "image": "chocolateMousseCake"
+          },
+          {
+            "title": "Tiramisu"
+          },
+          {
+            "title": "Belgian Milk Chocolate Mousse Cake",
+            "image": "belgianMilkChocolateMousseCake"
+          }
+        ]
+      }
+    ]
+  }
+]
