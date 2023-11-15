@@ -11,7 +11,10 @@ const Catalog = () => (
       return (
         <section className="my-24" key={title}>
           <header className="mb-12">
-            <h2 className={cn(neuton.className, 'text-4xl', 'text-chocolate', 'text-center')}>
+            <h2 className={cn(
+              [neuton.className, 'text-3xl', 'text-chocolate', 'text-center'],
+              'sm:text-4xl'
+            )}>
               {title}
             </h2>
             {desc && (

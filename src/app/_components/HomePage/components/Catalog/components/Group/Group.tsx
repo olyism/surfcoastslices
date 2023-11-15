@@ -14,8 +14,8 @@ const Group: FC<Props> = ({ title, products }) => (
       ['text-stone-500', 'text-sm', 'uppercase', 'tracking-widest'],
       ['flex', 'w-full', 'relative', 'my-6']
     )}>
-      <span className="mx-auto px-1 bg-white inline-block">{title}</span>
-      <div className="border-b border-chocolate/10 absolute top-1/2 w-full -z-10"></div>
+      <span className="mx-auto px-1 bg-white inline-block z-10">{title}</span>
+      <div className="border-b border-chocolate/10 absolute top-1/2 w-full"></div>
     </h3>
     <ul className="grid grid-cols-1 sm:grid-cols-3 gap-8">
       {products.map((product) => {

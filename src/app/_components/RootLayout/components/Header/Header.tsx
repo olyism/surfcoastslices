@@ -10,15 +10,16 @@ const Header: FC = () => (
     ['text-center', 'text-white'],
   )}>
     <Container>
-      <div className={cn(
+      <h1 className={cn(
         neuton.className,
-        ['text-5xl', 'uppercase', 'mb-6', 'tracking-wider'],
+        ['text-4xl', 'uppercase', 'mb-6', 'tracking-wider'],
+        'sm:text-5xl'
       )}>
         Surfcoast Slices
-      </div>
+      </h1>
       <ul className={cn(
         ['text-lg', 'uppercase', 'tracking-widest', 'font-light'],
-        ['flex', 'gap-6', 'justify-center']
+        ['flex', 'gap-5', 'justify-center']
       )}>
         <li>Slices</li>
         <li>Cookie</li>
