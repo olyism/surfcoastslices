@@ -9,11 +9,11 @@ export interface Props {
 
 const Product: FC<Props> = ({ title, image = undefined }) => (
   <div>
-    <div className="relative h-64 sm:h-48">
+    <div className="mb-2 pt-[66.6%] relative">
       {image ? (
         <Image
           alt={title}
-          className="object-cover rounded"
+          className="object-cover rounded-md"
           fill
           src={`/images/products/${image}.jpg`}
         />
@@ -21,14 +21,14 @@ const Product: FC<Props> = ({ title, image = undefined }) => (
         <div className={cn(
           ['text-center', 'text-stone-500'], 
           ['absolute', 'inset-0'], 
-          'bg-stone-100', 
+          ['bg-stone-100', 'rounded-md'],
           ['flex', 'items-center', 'place-content-center']
         )}>
           <span>Image coming soon</span>
         </div>
       )}
     </div>
-    {title}
+    <h4 className="text-center text-stone-600 font-medium">{title}</h4>
   </div>
 )
 

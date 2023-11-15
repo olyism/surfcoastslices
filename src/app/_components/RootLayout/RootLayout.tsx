@@ -14,11 +14,13 @@ interface Props {
 
 const RootLayout: FC<Props> = ({ children }) => (
   <html lang="en">
-    <body>
-      <Header />
-      <main>
-        {children}
-      </main>
+    <body className="bg-stone-100">
+      <div className="mx-auto max-w-screen-2xl bg-white shadow-lg">
+        <Header />
+        <main>
+          {children}
+        </main>
+      </div>
     </body>
   </html>
 )

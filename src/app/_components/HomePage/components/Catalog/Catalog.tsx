@@ -1,4 +1,6 @@
+import cn from 'classnames'
 import Group, { Props as GroupProps} from './components/Group'
+import { neuton } from '@/lib/font'
 import data from './data.json'
 
 const Catalog = () => (
@@ -7,16 +9,20 @@ const Catalog = () => (
       const { title, desc, groups } = d
 
       return (
-        <section key={title}>
-          <h2>{title}</h2>
-          {desc && (
-            <p>{desc}</p>
-          )}
+        <section className="my-24" key={title}>
+          <header className="mb-12">
+            <h2 className={cn(neuton.className, 'text-4xl', 'text-chocolate', 'text-center')}>
+              {title}
+            </h2>
+            {desc && (
+              <p className="text-center my-2 text-stone-500">{desc}</p>
+            )}
+          </header>
           {groups.map((group: GroupProps) => {
             const { title, products } = group
 
             return (
-              <Group key={title} products={products} />
+              <Group key={title} title={title} products={products} />
             )
           })}
         </section>
