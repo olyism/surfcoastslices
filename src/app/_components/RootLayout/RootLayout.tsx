@@ -13,7 +13,7 @@ interface Props {
 }
 
 const RootLayout: FC<Props> = ({ children }) => (
-  <html lang="en">
+  <html lang="en" className="scroll-smooth">
     <body className="bg-stone-100">
       <div className="mx-auto max-w-screen-2xl bg-white shadow-lg">
         <Header />

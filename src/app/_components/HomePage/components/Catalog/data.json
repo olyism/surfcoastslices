@@ -5,6 +5,7 @@
     "desc": "Comes in boxes of 10 or 32 slices",
     "groups": [
       {
+        "id": "slices",
         "title": "Slices",
         "products": [
           {
@@ -53,6 +54,7 @@
         ]
       },
       {
+        "id": "deluxe_slices",
         "title": "Deluxe slices",
         "products": [
           {
@@ -65,6 +67,7 @@
         ]
       },
       {
+        "id": "specialty_slices",
         "title": "Specialty Slices",
         "products": [
           {
@@ -85,6 +88,7 @@
     "title": "Cakes 14\"",
     "groups": [
       {
+        "id": "cakes",
         "title": "Cakes",
         "products": [
           {
@@ -113,6 +117,7 @@
         ]
       },
       {
+        "id": "cheese_cakes",
         "title": "Cheese Cakes",
         "products": [
           {
@@ -132,6 +137,7 @@
         ]
       },
       {
+        "id": "flourless_cakes",
         "title": "Flourless Cakes",
         "desc": "May contain traces of wheat/gluten",
         "products": [
@@ -153,6 +159,7 @@
         ]
       },
       {
+        "id": "mousse_cakes_and_tarts",
         "title": "Mousse cakes and tarts",
         "products": [
           {

@@ -22,10 +22,10 @@ const Catalog = () => (
             )}
           </header>
           {groups.map((group: GroupProps) => {
-            const { title, products } = group
+            const { id, title, products } = group
 
             return (
-              <Group key={title} title={title} products={products} />
+              <Group key={id} id={id} title={title} products={products} />
             )
           })}
         </section>

@@ -4,12 +4,13 @@ import type { Props as ProductProps } from './components/Product'
 import Product from './components/Product'
 
 export interface Props {
+  id: string,
   title: string,
   products: ProductProps[],
 }
 
-const Group: FC<Props> = ({ title, products }) => (
-  <article className="my-12">
+const Group: FC<Props> = ({ id, title, products }) => (
+  <article className="my-12" id={id}>
     <h3 className={cn(
       ['text-stone-500', 'text-sm', 'uppercase', 'tracking-widest'],
       ['flex', 'w-full', 'relative', 'my-6']
