@@ -20,10 +20,6 @@ const config: Config = {
       },
     },
   },
-  safelist: [
-    'bg-stone-100',
-    'text-stone-500',
-  ],
   plugins: [
     require('@tailwindcss/typography'),
   ],

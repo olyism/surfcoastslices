@@ -2,7 +2,7 @@ import type { FC } from 'react'
 import type { Props as ProductProps } from './components/Product'
 import Product from './components/Product'
 
-interface Props {
+export interface Props {
   title: string,
   products: ProductProps[],
 }

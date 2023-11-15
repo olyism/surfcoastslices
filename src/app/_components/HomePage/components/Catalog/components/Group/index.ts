@@ -1,1 +1,1 @@
-export { default } from './Group'
+export { type Props, default } from './Group'

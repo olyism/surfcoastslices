@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import type { FC } from 'react'
+import cn from 'classnames'
 
 export interface Props {
   title: string,
@@ -17,8 +18,13 @@ const Product: FC<Props> = ({ title, image = undefined }) => (
           src={`/images/products/${image}.jpg`}
         />
       ): (
-        <div className="text-center text-stone-500 absolute inset-0 bg-slate-100 top-1/2 -m-2">
-          Image coming soon
+        <div className={cn(
+          ['text-center', 'text-stone-500'], 
+          ['absolute', 'inset-0'], 
+          'bg-stone-100', 
+          ['flex', 'items-center', 'place-content-center']
+        )}>
+          <span>Image coming soon</span>
         </div>
       )}
     </div>

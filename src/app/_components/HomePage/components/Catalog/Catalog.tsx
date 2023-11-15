@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import Group from './components/Group'
+import Group, { Props as GroupProps} from './components/Group'
 import data from './data.json'
 
 const Catalog = () => (
@@ -13,7 +12,7 @@ const Catalog = () => (
           {desc && (
             <p>{desc}</p>
           )}
-          {groups.map((group) => {
+          {groups.map((group: GroupProps) => {
             const { title, products } = group
 
             return (
