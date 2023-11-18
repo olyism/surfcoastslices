@@ -46,7 +46,7 @@ const Header: FC = () => {
             ['flex', 'gap-5', 'justify-center']
           )}>
             <li>Slices</li>
-            <li>Cookie</li>
+            <li>Cookies</li>
             <li>Cakes</li>
           </ul>
         </Container>
