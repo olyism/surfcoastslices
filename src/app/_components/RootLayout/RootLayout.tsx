@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { Analytics } from '@vercel/analytics/react';
 import type { FC, ReactNode } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -24,6 +25,7 @@ const RootLayout: FC<Props> = ({ children }) => (
         </main>
         <Footer isDarkMode={true} />
       </div>
+      <Analytics />
     </body>
   </html>
 )
