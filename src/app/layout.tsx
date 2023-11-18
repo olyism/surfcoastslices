@@ -1,3 +1,1 @@
-import RootLayout from './_components/RootLayout/RootLayout'
-
-export default RootLayout
+export { default, metadata } from './_components/RootLayout'
