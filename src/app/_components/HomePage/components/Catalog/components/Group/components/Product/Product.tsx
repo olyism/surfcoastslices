@@ -9,7 +9,7 @@ export interface Props {
 
 const Product: FC<Props> = ({ title, image = undefined }) => (
   <div>
-    <div className="mb-3 pt-[66.6%] relative">
+    <div className="mb-3 pt-[75%] relative">
       {image ? (
         <Image
           alt={title}
