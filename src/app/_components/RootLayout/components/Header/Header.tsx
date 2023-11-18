@@ -25,7 +25,7 @@ const Header: FC = () => {
               'sm:text-5xl',
               'order-2'
               )}>
-              Surfcoast Slices
+              Surf Coast Slices
             </h1>
             <address className="order-3 flex gap-4 w-16 text-right md:hidden">
               <a href={`mailto:${data.email}`}>

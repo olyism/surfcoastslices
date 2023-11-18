@@ -2,11 +2,12 @@ import type { Metadata } from 'next'
 import type { FC, ReactNode } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import data from './data.json'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Surfcoast Slices',
-  description: 'Slices, cookies, cakes',
+  title: 'Surf Coast Slices',
+  description: `Slices • Cookies • Cakes - Contact Mac Harvey (wholesaler) ${data.phone} or ${data.email}`,
 }
 
 interface Props {
