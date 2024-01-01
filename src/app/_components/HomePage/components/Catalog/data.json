@@ -87,6 +87,29 @@
     ]
   },
   {
+    "title": "Cookies",
+    "groups": [
+      {
+        "id": "cookies",
+        "title": "Cookies",
+        "products": [
+          {
+            "title": "Yo-Yo's",
+            "image": "yoYos"
+          },
+          {
+            "title": "Triple Chocolate Cookies",
+            "image": "tripleChocolateCookies"
+          },
+          {
+            "title": "Jumbo Choc Chip Cookies",
+            "image": "jumboChocChipCookies"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Cakes 14\"",
     "groups": [
       {
