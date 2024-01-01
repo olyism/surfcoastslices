@@ -50,6 +50,23 @@ const Menu: FC<Props> = ({ onMenuClose }) => (
         </li>
         <li>
           <h2 className={`${neuton.className} my-5 text-4xl text-chocolate`}>
+            Cookies
+          </h2>
+          <ul>
+            <li className="my-5">
+              <Link 
+                className="text-xl text-stone-500 font-light"
+                href="/#cookies"
+                onClick={onMenuClose}
+              >All cookies</Link>
+            </li>
+          </ul>
+        </li>
+        <li aria-hidden>
+          <div className="mx-auto my-10 w-8 h-1 bg-stone-300 rounded" />
+        </li>
+        <li>
+          <h2 className={`${neuton.className} my-5 text-4xl text-chocolate`}>
             Cakes 14&quot;
           </h2>
           <ul>
